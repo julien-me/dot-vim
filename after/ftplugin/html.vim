@@ -9,4 +9,5 @@ function! DetectDjangoFile()
 endfunction
 
 let b:ale_fixers = ['tidy']
-call DetectDjangoFile()
+
+autocmd! BufWritePost <buffer> call DetectDjangoFile()
