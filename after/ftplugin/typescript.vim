@@ -13,13 +13,9 @@ let g:ale_javascript_eslint_executable = 'node_modules/.bin/eslint'
 let g:ale_javascript_prettier_executable = 'node_modules/.bin/prettier'
 
 let g:ale_linters = {
-      \ 'javascript': ['eslint'],
       \ 'typescript': ['eslint'],
       \ }
-let g:ale_fixers = {
-      \ 'javascript': ['eslint', 'prettier'],
-      \ 'typescript': ['eslint', 'prettier'],
-      \ }
+let g:ale_fixers = {'typescript': ['eslint', 'prettier']}
 let g:ale_fix_on_save = 1
 
 
