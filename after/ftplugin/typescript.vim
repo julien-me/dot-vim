@@ -7,6 +7,8 @@ set shiftwidth=4
 
 " arrow function shortcut
 inoremap >>> () => {<CR>}<ESC>0<up>o
+" instert try {} catch (err) {} 
+inoremap try{ try {<CR>} catch (err) {<CR>}<ESC>0<up>o<ESC>0<up><up>o
 
 let g:ale_javascript_eslint_executable = 'node_modules/.bin/eslint'
 
