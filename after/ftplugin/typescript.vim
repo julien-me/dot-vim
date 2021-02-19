@@ -1,9 +1,9 @@
 " size of a hard tabstop
-set tabstop=4
+"set tabstop=4
 " always uses spaces instead of tab characters
 set expandtab
 " size of an indent
-set shiftwidth=4
+"set shiftwidth=4
 
 " arrow function shortcut
 inoremap >>> () => {<CR>}<ESC>0<up>o
