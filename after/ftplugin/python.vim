@@ -1,3 +1,6 @@
+" write #TODO: when typing todo
+inoremap todo #TODO: 
+
 let g:ale_python_autopep8_options = '--aggressive --aggressive'
 "let g:ale_python_pylint_options = '--load-plugins pylint_django'
 let g:ale_linters = {

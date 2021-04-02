@@ -7,8 +7,10 @@ set expandtab
 
 " arrow function shortcut
 inoremap >>> () => {<CR>}<ESC>0<up>o
-" instert try {} catch (err) {} 
+" insert try {} catch (err) {}
 inoremap try{ try {<CR>} catch (err) {<CR>}<ESC>0<up>o<ESC>0<up><up>o
+" write //TODO: when typing todo
+inoremap todo //TODO: 
 
 let g:ale_javascript_eslint_executable = 'node_modules/.bin/eslint'
 
