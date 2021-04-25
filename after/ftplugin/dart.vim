@@ -1,5 +1,5 @@
-" write //TODO: when typing todo
-inoremap todo //TODO: 
+" write // TODO: when typing todo
+inoremap todo // TODO: 
 
 let g:ale_linters = {
       \ 'dart': ['dartanalyzer'],
