@@ -10,4 +10,7 @@ endfunction
 
 let b:ale_fixers = ['tidy']
 
+" Auto closing tags
+inoremap ><SPACE> ></<C-X><C-O>
+
 autocmd! BufWritePost <buffer> call DetectDjangoFile()
